@@ -23,3 +23,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_DEVICE=crater \
     BUILD_FINGERPRINT="samsung/craterxx/crater:4.2.2/JDQ39/I9152XXUANA1:user/release-keys" \
     PRIVATE_BUILD_DESC="craterxx-user 4.2.2 JDQ39 I9152XXUANA1 release-keys"
+
+# World APN list
+PRODUCT_COPY_FILES += \
+    vendor/aicp/prebuilt/common/etc/apns-conf.xml:system/etc/apns-conf.xml
