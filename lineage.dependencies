@@ -1,7 +1,7 @@
 [
   {
     "remote": "github",
-    "repository": "ghsr/android_kernel_samsung_i9152",
+    "repository": "Kiborg-Man/android_kernel_samsung_i9152",
     "target_path": "kernel/samsung/i9152",
     "revision": "android-7.1"
   },
